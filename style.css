@@ -23,6 +23,12 @@
     display: block;
     border-radius: 5px;
   }
+
+@media screen and (max-width: 800px) {
+    canvas {
+        width: 500px;
+    }
+}
   
   .btn {
     cursor: pointer;
