@@ -23,12 +23,6 @@
     display: block;
     border-radius: 5px;
   }
-
-@media screen and (max-width: 850px) {
-    canvas {
-        width: 500px;
-    }
-}
   
   .btn {
     cursor: pointer;
@@ -74,3 +68,33 @@
   .rules.show {
     transform: translateX(0);
   }
+
+  @media screen and (max-width: 850px) {
+    h1 {
+       font-size: 25px;  
+    }
+    canvas {
+        width: 500px;
+    }
+    .rules-btn {
+      top: 20px;
+      left: 20px;
+      font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  canvas {
+    width: 300px;
+  }
+
+  .rules-btn {
+    top: 10px;
+    left: 10px;
+    font-size: 8px;
+  }
+}
